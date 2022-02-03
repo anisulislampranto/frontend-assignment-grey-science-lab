@@ -16,7 +16,7 @@ function InputBar({ handleSubmit }: InputProps) {
           handleSubmit({});
         }}
       >
-        <input type="text" name="name" />
+        <input style={{padding:'10px'}} placeholder="Filter By Title" type="text" name="name" />
         <label>
           <input type="checkbox" />
           Full Time

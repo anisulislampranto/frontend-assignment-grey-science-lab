@@ -1,0 +1,7 @@
+.job-cards{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    margin: 70px 70px 0px 70px;
+    gap: 50px;
+    
+}
